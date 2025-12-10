@@ -31,6 +31,23 @@
     <p class="lead">Heb je een vraag, wil je samenwerken of gewoon iets laten weten? Stuur gerust een bericht.</p>
   </header>
 
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+ 
+  <link rel="stylesheet" href="css/map.css">
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+  
+  <script src="js/map-ap.js" defer></script>
+  <script src="js/map-parking.js" defer></script>
+  <script src="js/script-parking.js" defer></script>
+  <script src="js/script.js" defer></script>
+</head>
  
   <section class="container text-center mb-4">
     <p class="mb-1">📧 E-mail: <strong>letenmats@gmail.com</strong></p>
@@ -57,13 +74,17 @@
       <button type="submit" class="btn btn-primary">Verstuur</button>
     </form>
   </section>
+  <section class="container mb-5">
+  <h2 class="h5 mb-3">Mijn Locatie</h2>
+  <div id="map"></div>
+</section>
 
   <section class="container text-center mb-5">
     <h2 class="h5 mb-3">Volg mij op sociale media</h2>
     <div class="socials">
       <a href="https://www.instagram.com" target="_blank" class="mx-2"><i class="bi bi-instagram fs-4"></i></a>
       <a href="https://www.facebook.com" target="_blank" class="mx-2"><i class="bi bi-facebook fs-4"></i></a>
-      <a href="https://www.linkedin.com" target="_blank" class="mx-2"><i class="bi bi-linkedin fs-4"></i></a>
+      <a href="https://www.linkedin.com/in/mats-leten-6bb6772a6/" target="_blank" class="mx-2"><i class="bi bi-linkedin fs-4"></i></a>
     </div>
   </section>
   <footer class="bg-light text-center py-4">
@@ -72,6 +93,14 @@
 <script>
 
 </script>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="js/map-ap.js" defer></script>
+
+
+  
+ 
 
 </body>
 </html>

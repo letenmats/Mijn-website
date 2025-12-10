@@ -15,3 +15,9 @@ form .btn-primary {
 form .btn-primary:hover {
   background-color: #0056b3;
 }
+.project-img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
